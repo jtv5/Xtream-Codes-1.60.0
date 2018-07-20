@@ -1,6 +1,6 @@
 RTMP="rtmp://104.196.20.47:1935/live"
 SOURCE="http://89.163.251.186:8081/loadbalance/sptv/chunks.m3u8"
-KEY="filmes"
+KEY="bob"
 
 ffmpeg \
     -i "$SOURCE" -deinterlace \
