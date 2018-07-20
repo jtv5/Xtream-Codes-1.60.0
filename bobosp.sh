@@ -14,6 +14,6 @@ KEY="bob"                                     # Clé à récupérer sur l'event 
 
 ffmpeg \
     -i "$SOURCE" -deinterlace \
-    -vcodec libx264 -pix_fmt yuv420p -preset ultrafast -b 900k -s 320x240 -r 15 -g 15 -b:v 200k \
+    -vcodec libx264 -pix_fmt yuv420p -preset ultrafast -r 15 -g 15 -b:v 200k \
     -acodec libmp3lame -ar 44100 -threads 6 -qscale 3 -b:a 712000 -bufsize 512k \
     -f flv "$YOUTUBE_URL/$KEY"
