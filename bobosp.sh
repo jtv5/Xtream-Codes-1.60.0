@@ -1,9 +1,9 @@
-VBR="300k"
+VBR="200k"
  FPS="15"
  QUAL="medium"
- YOUTUBE_URL="rtmp://104.196.20.47/live"
+ YOUTUBE_URL="rtmp://stream.ssh101.com/globo2"
  SOURCE="http://89.163.251.186:8081/loadbalance/sptv/chunks.m3u8"
- KEY="sptv"
+ KEY="globo2"
 
 ffmpeg \
     -i "$SOURCE" -deinterlace \
