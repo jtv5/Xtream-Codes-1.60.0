@@ -8,18 +8,19 @@ then os="x86"
 else os="x64"
 fi
 echo -e "${jeshile} ┌───────────────────────────────────┐ \e[0m"
-echo -e "${jeshile} │  Verificando a versão do sistema  │ \e[0m"
+echo -e "${jeshile} │                                   |
+                    |   Checking system version         │ \e[0m"
 echo -e "${jeshile} └───────────────────────────────────┘ \e[0m"
 sleep 3
 echo -e "${jeshile} ┌─────────────────────────────┐ \e[0m"
-echo -e "${jeshile} │   Sistema $os               │ \e[0m"
+echo -e "${jeshile} │   System $os                │ \e[0m"
 echo -e "${jeshile} └─────────────────────────────┘ \e[0m"
 sleep 3
 echo -e "${jeshile} ┌──────────────────────────────────────────────┐ \e[0m"
-echo -e "${jeshile} │   Instalando Xtream Codes 1.60.0             │ \e[0m"
+echo -e "${jeshile} │   Instalation Xtream Codes 1.60.0            │ \e[0m"
 echo -e "${jeshile} └──────────────────────────────────────────────┘ \e[0m"
 echo -e "${jeshile} ┌──────────────────────────────────────────────┐ \e[0m"
-echo -e "${jeshile} │   By Pedro Junior Tutoriais                  │ \e[0m"
+echo -e "${jeshile} │   By Vlasis G.                               │ \e[0m"
 echo -e "${jeshile} └──────────────────────────────────────────────┘ \e[0m"
 echo " "
 apt-get update && apt-get upgrade -y
@@ -38,7 +39,7 @@ else
     echo "/var/www/ exist"
     	tar -zxvf /tmp/www_dir.tar.gz -C /var/www/
 else
-    echo "Nenhum servidor Web instalado?"
+    echo "No Web server installed?"
 
 fi
 
@@ -63,10 +64,10 @@ rm /root/install_iptv_pro.zip
 rm /root/xt_1.0.60-inst.sh
 echo " "
 echo -e "${jeshile} ┌──────────────────────────────────────────────┐ \e[0m"
-echo -e "${jeshile} │ Instalação Completa Xtream Codes 1.60.0      │ \e[0m"
+echo -e "${jeshile} │ Instalation Xtream Codes 1.60.0              │ \e[0m"
 echo -e "${jeshile} └──────────────────────────────────────────────┘ \e[0m"
 echo -e "${jeshile} ┌──────────────────────────────────────────────┐ \e[0m"
-echo -e "${jeshile} │ By Pedro Junior Tutoriais                    │ \e[0m"
+echo -e "${jeshile} │ By Vlasis G.                                 │ \e[0m"
 echo -e "${jeshile} └──────────────────────────────────────────────┘ \e[0m"
 echo " "
       read -p "Reboot now (y/n)?" CONT
